@@ -1,0 +1,41 @@
+.delivery-map {
+  text-align: center;
+  padding: 40px 20px;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+    .highlight {
+      color: yellow;
+    }
+  }
+
+  .map-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px  yellow;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .delivery-map {
+    h2 {
+      font-size: 22px;
+    }
+
+    .map-container {
+      padding: 5px;
+    }
+  }
+}

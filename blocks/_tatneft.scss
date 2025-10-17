@@ -1,0 +1,50 @@
+.fuel-section {
+  text-align: center;
+  padding: 40px 20px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    .highlight {
+  
+      font-weight: bold;
+    }
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .fuel-section {
+    h2 {
+      font-size: 20px;
+    }
+
+    .logos {
+      gap: 20px;
+
+      img {
+        width: 80px;
+      }
+    }
+  }
+}
