@@ -1,4 +1,4 @@
-.fuel-section {
+.fuel-section__2 {
   text-align: center;
   padding: 40px 20px;
 
@@ -6,19 +6,19 @@
     font-size: 24px;
     margin-bottom: 10px;
 
-    .highlight {
-  color: #e39715;
+    .highlight__2 {
+  color: #da7b1d;
       font-weight: bold;
     }
   }
 
-  .subtitle {
+  .subtitle__2 {
     font-size: 14px;
     color: #555;
     margin-bottom: 30px;
   }
 
-  .logos {
+  .logos__2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,12 +34,12 @@
 
 
 @media (max-width: 500px) {
-  .fuel-section {
+  .fuel-section__2 {
     h2 {
       font-size: 20px;
     }
 
-    .logos {
+    .logos__2 {
       gap: 20px;
 
       img {

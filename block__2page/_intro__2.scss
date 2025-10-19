@@ -1,0 +1,78 @@
+
+.hero {
+  background: url('/img/bcg.png') center/cover no-repeat;
+  background-blend-mode: overlay;
+ height: 500px;
+  width: 100%;
+  padding: 0;
+
+  text-align: center;
+
+  .highlight {
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+
+    .feature {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+  }
+
+  .price {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .call-button {
+   background-color: #ef800a;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      color: #f9f7f5;
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .hero {
+    h1 {
+      font-size: 20px;
+    }
+
+    .features {
+      flex-direction: column;
+
+      .feature {
+        margin: 5px 0;
+      }
+    }
+
+    .call-button {
+      width: 100%;
+    }
+  }
+}

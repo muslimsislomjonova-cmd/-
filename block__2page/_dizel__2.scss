@@ -1,0 +1,89 @@
+
+.fuel-types {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 40px 16px;
+}
+
+.fuel-card {
+  display: flex;
+  flex-direction: row;
+  width: 940px; 
+  background: #ffffff;
+  border: 2px dashed #989696;
+  border-radius: 12px;
+  padding: 24px 32px;
+  box-sizing: border-box;
+  gap: 24px;
+  align-items: center;
+}
+
+.fuel-card img {
+  width: 280px;
+  height: 200px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.fuel-info {
+  flex: 1;
+
+  h3 {
+    font-size: 20px;
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+  }
+
+  button {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f3b236;
+    background-color: transparent;
+    border: 2px solid #f3b236;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #f3b236;
+      color: #fff;
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .fuel-card {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .fuel-card img {
+    width: 100px;
+    height: auto;
+  }
+
+  .fuel-info {
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
