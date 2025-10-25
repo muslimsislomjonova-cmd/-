@@ -1,0 +1,44 @@
+.delivery-offer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border: 2px dashed #bfbfbf;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: center;
+
+  p {
+ 
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000;
+    margin: 0;
+
+    .highlight {
+      color: #dca73a;
+      font-weight: 700;
+    }
+  }
+
+
+  
+
+
+  @media (max-width: 500px) {
+  
+
+    p {
+      font-size: 18px;
+    }
+        h2 {
+      font-size: 26px;
+    }
+
+    }
+}
+  
+
+
+  
+
